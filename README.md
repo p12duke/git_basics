@@ -4,7 +4,7 @@
 ## Installation  
 
 ### On linux :
-> sudo apt install  git gh
+>`` sudo apt install  git gh``
 
 ### On Windows/Mac os : 
 - Manually install a github cli
@@ -51,12 +51,11 @@ NOTE: --global will setup all credential on global level. You can also setup a d
        ``` eval "$(ssh-agent -s) ```
        This should show a pid for your ssh-agent.
     2. Use the following command to test your connection :
-       > ssh -t git@github.com
+       `` ssh -t git@github.com``
        If you receive an error, then you need to ensure that correct
        key was generated using this command
         ssh-keygen -t <algo> -C "gitusername@github.com"
        Make sure to edit the algo with your fav algo for keygen and your gitusername.
-
 
 
   ### Testing Authentication with github cli
@@ -68,7 +67,7 @@ NOTE: --global will setup all credential on global level. You can also setup a d
      To work with github cli
 
      We should first ideally check the auth and verify the ssh or the https:login credential using this command
-      > gh auth login
+      ``gh auth login``
 
       You would be prompted to enter into the github -web ui and verify the code  prompted.
 
@@ -85,7 +84,7 @@ which are basically in simple terms can be concluded as an image of your work/pr
 
   
   # Git terms
-     Before diving into the basic commands of the Git. We should first make ourselves,
+    Before diving into the basic commands of the Git. We should first make ourselves,
      aware of few terms.
 
 
