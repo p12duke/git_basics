@@ -1,16 +1,16 @@
 # Github basics
 
 
-# Installation : 
+## Installation : 
 
-## On linux: 
+### On linux: 
 > sudo apt install  git gh
 
-## On Windows/Mac os : 
+### On Windows/Mac os : 
 - Manually install a github cli
 
 
-# First Setup
+# Initial setup and configurations
 
 - Considering the host system to be a linux distro
 
@@ -67,26 +67,20 @@ NOTE: --global will setup all credential on global level. You can also setup a d
 
      To work with github cli
 
-     We should first ideally check the auth and verify the ssh or the https:login            credential using this command
+     We should first ideally check the auth and verify the ssh or the https:login credential using this command
       > gh auth login
 
-      You would be prompted to enter into the github -web ui and verify the code              prompted.
+      You would be prompted to enter into the github -web ui and verify the code  prompted.
 
 
 
 ### Basic Working of Github
-
-    Github is a hub or container for your all of your repositories on internet. 
-    Repository is a remote folder ( in basic terms) that can have multiple branches
-    which are basically in simple terms can be concluded as an image of your work/project. You can store multiple images of the same project with different changes 
-    and can still access each of the branches. Github provides actions like fork , clone
-    to share and work with projects of other users on github.com. The most important 
-    feature of the github is that it can restore the image at any point of the commit.
-    Commit is an action of approving changes that are applicable on both local and the 
-    remote repo. It means that whatever changes you've made on that project would be 
-    synced on your repo as well. According to me, this seems to the basic or fundamental
-    working principle of the Github.
+Github is a hub or container for your all of your repositories on internet. 
+Repository is a remote folder ( in basic terms) that can have multiple branches
+which are basically in simple terms can be concluded as an image of your work/project. You can store multiple images ofthe same project with different changes and can still access each of the branches. Github provides actions like fork , clone to share and work with projects of other users on github.com. The most important feature of the github is that it can restore the image at any point of the commit. Commit is an action of approving changes that are applicable on both local and the remote repo. It means that whatever changes you've made on that project would be synced on your repo as well. According to me, this seems to the basic or fundamental working principle of the Github.
     
+
+
     
 
   
