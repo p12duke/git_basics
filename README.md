@@ -1,9 +1,9 @@
 # Github basics
 
 
-## Installation : 
+## Installation  
 
-### On linux: 
+### On linux :
 > sudo apt install  git gh
 
 ### On Windows/Mac os : 
@@ -48,7 +48,7 @@ NOTE: --global will setup all credential on global level. You can also setup a d
   ### Steps to login and test  your Github connection.
 
     1. Eval the ssh key gen using this command
-       > eval "$(ssh-agent -s)"
+       ``` eval "$(ssh-agent -s) ```
        This should show a pid for your ssh-agent.
     2. Use the following command to test your connection :
        > ssh -t git@github.com
